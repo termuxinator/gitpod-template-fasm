@@ -1,12 +1,12 @@
-# A Yasm template on Gitpod
+# A FASM template on Gitpod
 
-This is a [Yasm](https://yasm.tortall.net/) template configured for ephemeral development environments on [Gitpod](https://www.gitpod.io/).
+This is a [FASM](https://flatassembler.net/) template configured for ephemeral development environments on [Gitpod](https://www.gitpod.io/).
 
 ## Next Steps
 
 Click the button below to start a new development environment:
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/gitpod-io/template-yasm)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/termuxinator/template-fasm)
 
 ## Get Started With Your Own Project
 
