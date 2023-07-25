@@ -1,0 +1,8 @@
+tasks:
+  - command: |
+      brew install fasm
+      make
+      
+vscode:
+  extensions:
+    - maziac.asm-code-lens
