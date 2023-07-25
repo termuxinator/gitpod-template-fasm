@@ -2,7 +2,7 @@ default: all
 
 # Help message
 help:
-	@echo "Yasm Project Template"
+	@echo "FASM Project Template"
 	@echo
 	@echo "Target rules:"
 	@echo "    all      - Compiles and generates binary file"
@@ -10,8 +10,8 @@ help:
 	@echo "    help     - Prints a help message with target rules"
 
 all:
-	yasm -f elf64 helloworld.s
-	ld -o helloworld helloworld.o
+	fasm helloworld.s helloworld.o
+	ld helloworld.o -o helloworld
 
 	./helloworld
 
