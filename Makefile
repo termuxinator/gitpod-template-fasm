@@ -9,9 +9,10 @@ help:
 	@echo "    help     - Prints a help message with target rules"
 
 all:
-	fasm hello.s hello.o
-	ld hello.o -o hello
-	./hello
+	#fasm hello.s hello.o
+	#ld hello.o -o hello
+	#./hello
+	hello
 
 clean:
 	@rm -rvf hello *.o
