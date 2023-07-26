@@ -5,9 +5,6 @@
 
 tasks:
   - command: |
-  # brew install fasm
-      # apt update
-      # apt -y install fasm
       make
       
 vscode:
