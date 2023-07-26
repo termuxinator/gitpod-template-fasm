@@ -2,7 +2,7 @@ tasks:
   - name: FASM
     init: |
       sudo apt update
-      sudo apt upgrade
+      # sudo apt upgrade
       sudo apt install fasm
     command: make
 
