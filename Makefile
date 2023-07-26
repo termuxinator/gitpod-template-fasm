@@ -13,4 +13,4 @@ all:
 	./hello32
 
 clean:
-	@rm -rvf helloworld *.o
+	@rm -rvf hello32 *.o
