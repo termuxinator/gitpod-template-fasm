@@ -13,7 +13,7 @@ This is a [FASM](https://flatassembler.net/) template configured for ephemeral d
 
 Click the button below to start a new development environment:
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/termuxinator/gitpod-template-fasm)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/termuxinator/gitpod-template-fasm/tree/install-fasm)
 
 ## Get Started With Your Own Project
 
