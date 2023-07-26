@@ -2,7 +2,8 @@
 
 Origin https://github.com/Gitpod-Samples/template-yasm
 
-Code example for 64bit linux system.
+Code example for 64bit Linux system
+[workspace](https://github.com/gitpod-io/workspace-images/)
 
 TODO: Fix gitpod.yml to brew fasm so we can lose this local copy.
 
