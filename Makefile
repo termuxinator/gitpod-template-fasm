@@ -10,7 +10,7 @@ help:
 
 all:
 	#fasm helloworld.s helloworld
-        fasm
+	fasm
 	./helloworld
 
 clean:
