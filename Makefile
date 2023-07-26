@@ -11,8 +11,8 @@ help:
 
 all:
 	chmod +x ./fasm.x64
-	./fasm.x64 helloworld.s helloworld.o
-	ld helloworld.o -o helloworld
+	./fasm.x64 helloworld.s helloworld
+	# ld helloworld.o -o helloworld
 
 	./helloworld
 
