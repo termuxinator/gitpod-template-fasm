@@ -6,7 +6,7 @@ tasks:
     init: |
       sudo apt update
       #sudo apt upgrade
-      #sudo apt install fasm_1.73.27-1_amd64.deb
+      #sudo dpkg -i fasm_1.73.27-1_amd64.deb
       sudo apt install fasm
     command: make
 
