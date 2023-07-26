@@ -9,8 +9,8 @@ help:
 	@echo "    help     - Prints a help message with target rules"
 
 all:
-	fasm helloworld.s helloworld
-	./helloworld
+	fasm hello32.s hello32
+	./hello32
 
 clean:
 	@rm -rvf helloworld *.o
