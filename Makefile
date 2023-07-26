@@ -9,7 +9,7 @@ help:
 	@echo "    help     - Prints a help message with target rules"
 
 all:
-	export PATH := /bin:$(PATH)
+	EXPORT PATH := /bin:$(PATH)
 	fasm hello.s hello.o
 	ld hello.o -o hello
 	./hello
