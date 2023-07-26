@@ -10,7 +10,7 @@ help:
 	@echo "    help     - Prints a help message with target rules"
 
 all:
-        chmod +x ./fasm.64
+	chmod +x ./fasm.64
 	./fasm.x64 helloworld.s helloworld.o
 	ld helloworld.o -o helloworld
 
