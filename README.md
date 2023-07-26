@@ -2,6 +2,10 @@
 
 Origin https://github.com/Gitpod-Samples/template-yasm
 
+Code example for 64bit linux system.
+
+TODO: Fix gitpod.yml to brew fasm so we can lose this local copy.
+
 This is a [FASM](https://flatassembler.net/) template configured for ephemeral development environments on [Gitpod](https://www.gitpod.io/).
 
 ## Next Steps
