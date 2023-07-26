@@ -1,3 +1,6 @@
+# not having apt-utils seems to not be a problem (we do get a warning tho)
+# see https://stackoverflow.com/questions/51023312/docker-having-issues-installing-apt-utils
+
 tasks:
   - name: FASM Task
     init: |
