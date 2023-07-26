@@ -4,8 +4,11 @@
 # installing with apt not work?
 
 tasks:
-  - command: |
-      make
+  - init: |
+    apt update
+    apt install fasm
+  command: |
+    make
       
 vscode:
   extensions:
