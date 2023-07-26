@@ -1,6 +1,6 @@
 tasks:
   - command: |
-      brew install fasm.x64
+     # brew install fasm.x64
       make
       
 vscode:
