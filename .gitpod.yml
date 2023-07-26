@@ -7,7 +7,7 @@ tasks:
   - name: FASM
     init: |
       sudo apt update
-      sudo apt install fasm
+      sudo apt install fasm -y
     command: make
 
 vscode:
