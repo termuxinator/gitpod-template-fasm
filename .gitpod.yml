@@ -7,8 +7,7 @@ tasks:
   - init: |
     apt update
     apt install fasm
-  command: |
-    make
+  command: make
       
 vscode:
   extensions:
