@@ -17,4 +17,4 @@ main:
 segment readable writable
 
 msg db 'Hello World!', 10
-msg_len equ $ - msg
+msg_len = $ - msg
