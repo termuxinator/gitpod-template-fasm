@@ -4,11 +4,12 @@
 # installing with apt not work?
 
 tasks:
-  - init: |
-    apt update
-    apt install fasm
-  command: make
-      
+  - name: FASM
+    init: |
+      apt update
+      apt install fasm
+    command: make
+
 vscode:
   extensions:
     - maziac.asm-code-lens
