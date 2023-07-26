@@ -1,5 +1,5 @@
 tasks:
-  - name: FASM
+  - name: FASM Installation
     init: |
       sudo apt update
       # sudo apt upgrade
