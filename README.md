@@ -7,6 +7,8 @@ Code example for 64bit Linux system
 
 TODO: Fix gitpod.yml to brew fasm so we can lose this local copy.
 
+** This branch crashes on execution of FASM with bad syscall **
+
 This is a [FASM](https://flatassembler.net/) template configured for ephemeral development environments on [Gitpod](https://www.gitpod.io/).
 
 ## Next Steps
