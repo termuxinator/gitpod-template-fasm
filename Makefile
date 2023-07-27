@@ -8,7 +8,11 @@ help:
 	@echo "    clean    - Clean the project by removing binaries"
 	@echo "    help     - Prints a help message with target rules"
 
+# just tring to invoke fasm here
 all:
+	fasm
+
+fixed_all:
 	fasm hello.s hello.o
 	ld -o hello hello.o
 	./hello
