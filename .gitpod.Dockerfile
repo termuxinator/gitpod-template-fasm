@@ -6,10 +6,14 @@ FROM ubuntu:latest
 # - sudo, while not required, is recommended to be installed, since the
 #   workspace user (`gitpod`) is non-root and won't be able to install
 #   and use `sudo` to install any other tools in a live workspace.
+#
+# - make and fasm added to example
+
 RUN apt-get update && apt-get install -yq \
     git \
     git-lfs \
     sudo \
+    make \
     fasm \
     && apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/*
 
