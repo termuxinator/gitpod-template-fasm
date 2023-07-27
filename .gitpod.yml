@@ -1,8 +1,8 @@
 tasks:
   - name: FASM Task
     init: |
-      #sudo apt-get update
-      #sudo apt-get upgrade
+      sudo apt-get update
+      sudo apt-get upgrade
       sudo apt-get install fasm
     command: make
 
