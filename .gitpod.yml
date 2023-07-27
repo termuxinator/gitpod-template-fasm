@@ -2,9 +2,7 @@ image:
   file: .gitpod.Dockerfile
 
 tasks:
-  - command: |
-      fasm # debugging, just say hello
-      make
+  - command: make
 
 vscode:
   extensions:
