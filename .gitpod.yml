@@ -2,7 +2,7 @@ image: gitpod/workspace-full
 
 tasks:
   - name: FASM Task
-    init: fasm install
+    #init:
     command: make
 
 vscode:
