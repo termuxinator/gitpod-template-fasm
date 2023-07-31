@@ -4,8 +4,7 @@
 # installing with apt not work?
 
 tasks:
-  - command: |
-      make
+  - command: make
       
 vscode:
   extensions:
