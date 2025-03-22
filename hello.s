@@ -1,5 +1,5 @@
 ;
-; ASM Hello World for Linux X86_64 in FASM syntax
+; ASM Hello World for Linux x86_64 in FASM syntax
 ;
 ; syscall parameters order:
 ; r9    6th param
